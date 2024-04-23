@@ -1,0 +1,16 @@
+$TTL 1D
+@	IN SOA	{{ dns_domain }}.  root.{{ dns_domain }}. (
+					0	; serial
+					1D	; refresh
+					1H	; retry
+					1W	; expire
+					3H )	; minimum
+			NS	{{ dns_domain }}.
+{{ dns_domain }}.	A	192.168.0.195
+ansible			A	192.168.0.195
+server01		A	192.168.0.200
+server02		A	192.168.0.201
+server03		A	192.168.0.202
+server04		A	192.168.0.203
+server05		A	192.168.0.204
+server06		A	192.168.0.205

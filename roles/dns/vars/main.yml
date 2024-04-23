@@ -1,0 +1,13 @@
+---
+# vars file for dns
+dns_packages:
+  - bind-license
+  - bind-libs
+  - bind-utils
+  - python3-bind
+  - bind-dnssec-doc
+  - bind-dnssec-utils
+  - bind
+  - bind-dyndb-ldap
+  - bind-chroot
+

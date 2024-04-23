@@ -1,0 +1,10 @@
+{% for user in users %}
+    {% if user.role == 'Developer' %}
+Hello {{ user.name }}! You are a {{ user.role }}.
+    {% elif user.role == 'Sysadmin' %}
+Greetings {{ user.name }}! Your role is {{ user.role }}.
+    {% else %}
+Howdy {{ user.name }}! Your role is {{ user.role }}.
+    {% endif %}
+{% endfor %}
+

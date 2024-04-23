@@ -1,0 +1,15 @@
+$TTL 1D
+@	IN SOA	{{ dns_domain }}. root.{{ dns_domain }}. (
+					0	; serial
+					1D	; refresh
+					1H	; retry
+					1W	; expire
+					3H )	; minimum
+	NS	{{ dns_domain }}.
+195	PTR	ansible.{{ dns_domain }}.
+200	PTR	server01.{{ dns_domain }}.
+201	PTR	server02.{{ dns_domain }}.
+202	PTR	server03.{{ dns_domain }}.
+203	PTR	server04.{{ dns_domain }}.
+204	PTR	server05.{{ dns_domain }}.
+205	PTR	server06.{{ dns_domain }}.

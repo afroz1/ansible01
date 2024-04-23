@@ -1,0 +1,6 @@
+---
+# defaults file for dns
+
+dns_domain: cloudarray.local
+forward: f.zone
+reverse: r.zone
